@@ -1,0 +1,82 @@
+# Created by http://www.gitignore.io
+
+### WordPress Ignores by https://github.com/github/gitignore/blob/master/WordPress.gitignore ###
+/public_html/wp/
+/public_html/wp-content/*/*
+/public_html/wp-content/mu-plugins/*
+/public_html/wp-content/plugins/*
+/public_html/vendor
+production-config.php
+
+!/public_html/wp-content/themes
+!/public_html/wp-content/themes/*
+!/public_html/wp-content/themes/wp-foundation-six
+!/public_html/wp-content/themes/wp-foundation-six/*
+!/public_html/wp-content/mu-plugins/index.php
+!/public_html/wp-content/plugins/index.php
+
+/public_html/wp-content/themes/wp-foundation-six/assets
+/public_html/wp-content/themes/wp-foundation-six-build
+
+
+### Docker ###
+/html/
+/ejected/*/*
+/data/*/*
+!/data/backups/.gitit
+!/data/mysql/.gitit
+docker_php_error_log
+
+
+### Bower ###
+bower_components
+
+
+### Vagrant stuff ###
+acceptance_config.yml
+vagrant-spec.config.rb
+.vagrant
+
+
+### OSX ###
+.DS_Store
+.AppleDouble
+.LSOverride
+
+
+### Icon must end with two \r ###
+Icon
+
+
+### Thumbnails ###
+._*
+
+
+### Files that might appear on external disk ###
+.Spotlight-V100
+.Trashes
+
+
+### Directories potentially created on remote AFP share ###
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+
+### Created by http://www.gitignore.io ###
+.sass-cache
+*.css.map
+.tmp
+*.zip
+dist
+node_modules
+*.log
+object-cache.php
+advanced-cache.php
+db.php
+logs
+cache
+.phpintel
+*.sql
